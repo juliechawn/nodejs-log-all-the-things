@@ -1,0 +1,29 @@
+{
+  "name": "log-all-the-things",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --exit",
+    "start": "node server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "csvdata": "^1.4.0",
+    "express-useragent": "^1.0.8",
+    "request": "^2.83.0",
+    "useragent": "^2.2.1",
+    "y": "^0.3.2",
+    "yamlparser": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "express": "^4.16.2",
+    "mocha": "^3.4.2",
+    "moment": "^2.20.1",
+    "sinon": "^2.4.1"
+  }
+}
